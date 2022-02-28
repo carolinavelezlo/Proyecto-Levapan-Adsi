@@ -82,23 +82,28 @@ header img{
     .menuv ul li a:hover + ul, .menuv ul li ul:hover {
 		display: block;
 	}
+    /**/
 .mapouter{
     position:relative;
     text-align:right;
     height:500px;
     width:600px;
+    min-width: 320px;
     top: calc(100% - 100px);
     left: calc(58% - 100px);
 }
   
-.gmap_canvas {
-    overflow:hidden;
-    background:none; 
-    height:500px;
-    width:600px;
-}
-  
 
+#gmap_canvas{
+    width: 600px;
+    height: 400px;
+    border: .5em;
+    margin: 2% auto;
+    border-radius: .5em ;
+    box-shadow: 0 10px ;
+   } 
+    
+/**/
 .img-container{/*imagen*/
     width:450px;
     min-width: 320px;
@@ -136,15 +141,7 @@ header img{
 .header--button:hover{
     background:linear-gradient(207.8deg, #CCCC66 16.69%, #990000 100%);
 }
-#gmap_canvas{
-    width: 600px;
-    height: 400px;
-    border: .5em;
-    margin: 2% auto;
-    border-radius: .5em ;
-    box-shadow: 0 10px ;
-   } 
-    
+
 .image_pse1 {
     width: 60px;
     position: fixed;
