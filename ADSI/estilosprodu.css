@@ -1,0 +1,149 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+    font-family:"DM Sans", sans-serif; 
+}
+
+#smart-button-container{
+    min-width:288px;
+    max-width:900px;
+    margin:10px;
+    margin-top:80px;
+    margin-left: 5%;
+    text-align: center;
+    align-self: center;
+    display:inline-flex;
+ }
+ #paypal-button-container{
+     width: 100%;
+     margin: 20px;
+     margin-top: 55px;  
+
+              
+ }
+ #paypal-button-container img{
+     width: 80px;
+     text-align: center;
+     margin: 10px;
+
+ }
+ #paypal-button-container h3{
+     margin: 20px;
+     text-align: center;
+     font-size: 1.5rem;
+     
+ }
+ #paypal-button-container p {
+     margin:30px;
+     text-align: center;
+     font-size: 1.2rem;
+     
+ }
+ #paypal-button-container  .header--button{
+     padding: 15px;
+     width:20px;
+     height: 20px;
+     margin-top: 60px;
+     background-color: #dd223bd7;
+     /* sombra*/
+     box-shadow: 0px 4px 8px rgba(238, 237, 235, 0.16);
+     border: none;
+     border-radius: 5px;
+     /*dimenciones a las fuentes*/
+     font-size: 1.4rem;
+     font-weight: bold;
+     text-decoration: none;
+     color: var(--black); 
+
+ }
+
+
+ #paypal-button-container2{
+     width: 100%;
+     margin:10px;
+              
+ }
+ #paypal-button-container2 img{
+     width: 80px;
+     text-align: center;
+ 
+     
+ }
+ #paypal-button-container2 h3{
+     margin: 30px;
+     text-align: center;
+     font-size: 1.3rem;
+     
+ }
+ #paypal-button-container2 p {
+     margin: 20px;
+     text-align: center;
+     font-size: 1.3rem;
+     
+ }
+
+ #paypal-button-container2 .header--button{
+     padding: 15px;
+     width:20px;
+     height: 20px;
+     margin-top: 60px;
+     background-color: #dd223bd7;
+     /* sombra*/
+     box-shadow: 0px 4px 8px rgba(238, 237, 235, 0.16);
+     border: none;
+     border-radius: 5px;
+     /*dimenciones a las fuentes*/
+     font-size: 1.4rem;
+     font-weight: bold;
+     text-decoration: none;
+     color: var(--black); 
+
+ }
+
+ #paypal-button-container3{
+     width: 100%;
+     margin:10px;
+              
+ }
+ #paypal-button-container3 img{
+     width: 80px;
+     text-align: center;
+ 
+     
+ }
+ #paypal-button-container3 h3 {
+     margin: 20px;
+     text-align: center;
+     font-size: 1.3rem;
+     
+ }
+ #paypal-button-container3 p {
+     margin: 20px;
+     text-align: center;
+     font-size: 1.3rem;
+     
+ }
+
+
+ #paypal-button-container3 .header--button{
+     padding: 15px;
+     width:20px;
+     height: 20px;
+     margin-top: 60px;
+     background-color: #dd223bd7;
+     /* sombra*/
+     box-shadow: 0px 4px 8px rgba(238, 237, 235, 0.16);
+     border: none;
+     border-radius: 5px;
+     /*dimenciones a las fuentes*/
+     font-size: 1.4rem;
+     font-weight: bold;
+     text-decoration: none;
+     color: var(--black); 
+
+ }
