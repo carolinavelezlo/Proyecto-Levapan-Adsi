@@ -169,17 +169,6 @@ header img{
     opacity: 1;
 
 }
-.image_1 {
-    width: 220px;
-    position: fixed;
-    right: calc(1% - 20px);;
-    top: 250px;
-    z-index: 1;
-    opacity: 1;
- 
-  
-
-}
 
 .image_pse1:hover, .image_pse2:hover, .image_pse3:hover{
     opacity: 1;

@@ -16,7 +16,7 @@ header {
     justify-content: center;
     width: 100%;
     min-width: 320px;
-    height: 220px;
+    height: 100px;
     background: #990000;
 }
 .header--container{
@@ -133,6 +133,7 @@ header {
 }*/
    
 #catalogo{
+    width: 60px;
     position: fixed;
     right: calc(1% - 20px);;
     top: 250px;
@@ -140,6 +141,17 @@ header {
     opacity: 1;
 }
 
+.image_1 {
+    width: 60px;
+    position: fixed;
+    right: calc(2% - 20px);;
+    top: 250px;
+    z-index: 1;
+    opacity: 1;
+ 
+  
+
+}
 
 
 /**/
@@ -166,6 +178,7 @@ header {
 
 .wrapper {
 	max-width: 1200px;
+    width: 100%;
 	margin: 0 auto;
 }
 
@@ -262,7 +275,7 @@ header {
 footer{
     display: flex;
     width: 100%;
-    height: 300px;
+    height: 200px;
     background:#990000; 
 
 }
